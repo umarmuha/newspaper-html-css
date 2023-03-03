@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 30px;
+}
+
+.brand {
+  font-family: "Snell Roundhand";
+  font-size: 60px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.page {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "story1 story2 story3"
+    "story4 story5 story5";
+}
+
+.brand-header {
+  grid-area: header;
+}
