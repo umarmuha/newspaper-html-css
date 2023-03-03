@@ -1,6 +1,4 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 body {
@@ -31,6 +29,22 @@ body {
   grid-area: nav;
 }
 
+.story1 {
+  grid-area: story1;
+}
+
+.story2 {
+  grid-area: story2;
+}
+
+.story3 {
+  grid-area: story3;
+}
+
+.story4 {
+  grid-area: story4;
+}
+
 .nav-links ul {
   list-style: none;
   display: flex;
@@ -47,4 +61,28 @@ body {
   font-family: "Futura";
   text-decoration: none;
   color: #666;
+}
+
+.article-title {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.article-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.story {
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 30px;
+}
+
+.story3 {
+  border-right: 3px solid black;
 }
